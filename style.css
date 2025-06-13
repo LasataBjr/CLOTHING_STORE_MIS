@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  width: 220px;
+  position: fixed;
+  height: 100vh;
+  background-color: #343a40;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 15px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #495057;
+}
+
+.main-content {
+  margin-left: 230px;
+  padding: 20px;
+}
+
+.topbar {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-metric {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+#imagePreview {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+main {
+  margin-left: 16.7%; /* adjust if your sidebar width changes */
+}
